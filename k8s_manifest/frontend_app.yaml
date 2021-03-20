@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: phx.ocir.io/orasejapan/devdays2020/frontend-app
+        image: iad.ocir.io/idt6ll5dghjj/devdays-demo/frontend
         ports:
         - containerPort: 3000
         env:
