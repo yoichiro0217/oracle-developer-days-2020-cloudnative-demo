@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-kohaku
-        image: phx.ocir.io/orasejapan/devdays2020/backend_kohaku_app
+        image: iad.ocir.io/idt6ll5dghjj/devdays-demo/backend_kohaku
         ports:
         - containerPort: 8081
       - name: h2kohaku
